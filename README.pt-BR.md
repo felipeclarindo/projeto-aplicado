@@ -6,16 +6,19 @@ Análise Exploratória de Dados (EDA) sobre as condições habitais no estado de
 
 ## 📖 Sumário
 
-- [🎯 Objetivo](#-objetivo)
-- [🕒 Cronograma](#-cronograma)
-- [🛠 Mapeamento de Tecnologias](#-mapeamento-de-tecnologias)
-- [👥 Equipe](#-equipe)
+- [🎯 Objetivo](#-🎯-Objetivo)
+- [📋 Detalhes do Dataset](-📋-Detalhes-do-Dataset)
+- [📌 Observações](#-📌-Observações)
+- [🕒 Cronograma](#-🕒-Cronograma)
+- [🛠 Mapeamento de Tecnologias](#-🛠-Mapeamento-de-Tecnologias)
+- [💫 Passos para execução](#-💫-Passos-para-execução)
+- [👥 Equipe](#-👥-equipe)
 
 ## 🎯 Objetivo
 
 Exploratory Data Analysis (EDA) aplicada aos dados de condições habitacionais no estado de São Paulo, disponibilizados pela Fundação SEADE. A pesquisa envolve a definição do contexto organizacional, caracterização do problema, seleção e tratamento da base de dados, e apresentação de insights com storytelling baseado nos resultados obtidos.
 
-## Detalhes do dataset
+## 📋 Detalhes do dataset
 
 - `cd_setor` - Código do setor (uma identificação única para cada setor).
 - `cd_dist` - Código do distrito (representa a região do estado).
@@ -33,7 +36,7 @@ Exploratory Data Analysis (EDA) aplicada aos dados de condições habitacionais 
 - `lat` - Latitude da localização do setor.
 - `long` - Longitude da localização do setor.
 
-## Observações
+## 📌 Observações
 
 O dataset contém dados geográficos (latitude e longitude) que podem ser usados para mapear a distribuição geográfica de diferentes áreas de Adamantina.
 A área de cada setor é apresentada em quilômetros quadrados, o que permite calcular a densidade populacional ou realizar outras análises espaciais.
@@ -53,6 +56,36 @@ Mapeamento de possiveis tecnologias que poderão ser utilizadas para a análise 
 - 📈 `matplotlib` - Criação de gráficos e visualizações de dados.
 - 🤖 `scikit-learn` - Desenvolvimento de modelos preditivos (se necessário).
 - 🖥 `streamlit` - Construção de dashboards interativos para visualização dos resultados.
+
+## 💫 Passos para execução
+
+1. Clone o repositorio:
+
+```bash
+git clone https://github.com/felipeclarindo/projeto-aplicado.git
+```
+
+2. Entre no diretorio:
+
+```bash
+cd projeto-aplicado
+```
+
+3. Crie um `Ambiente Virtual`:
+
+```bash
+python -m venv .venv
+```
+
+4. Execute o arquivo `Activate.bat` localizado em `.venv/Scripts/Activate.bat`. (Após digite `cd ..` até voltar para raiz.)
+
+5. Instale as dependências:
+
+```bash
+pip install -r ./requirements.txt
+```
+
+6. Execute as celular do arquivo jupyter(`projeto_aplicado.ipynb`) localizado na pasta `src`.
 
 ## 👥 Equipe
 
