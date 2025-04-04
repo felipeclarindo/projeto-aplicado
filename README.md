@@ -6,16 +6,19 @@ Exploratory Data Analysis (EDA) about the housing conditions in the state `São 
 
 ## 📖 Summary
 
-- [🎯 Objective](#-objective)
-- [🕒 Timeline](#-timeline)
-- [🛠 Mapping Technologies](#-mapping-technologies)
-- [👥 Team](#-equip)
+- [🎯 Objective](#-🎯-Objective)
+- [📋 Dataset Details](#-📋-Dataset-Details)
+- [📌 Observations](#-📌-Observations)
+- [🕒 Timeline](#-🕒-Timeline)
+- [🛠 Mapping Technologies](#-🛠-Mapping-Technologies)
+- [💫 Steps to run](#-💫-Steps-to-run)
+- [👥 Team](#-👥-Team)
 
-## 🎯Objective
+## 🎯 Objective
 
 Exploratory Data Analysis (EDA) applied to the data of housing conditions in the state of Sao Paulo, provided by the SEADE Foundation. The research involves the definition of the organizational context, characterization of the problem, selection and treatment of the database, and presentation of insights with storytelling based on the results obtained
 
-## Dataset Details
+## 📋 Dataset Details
 
 - `cd_sector` - Industry code (a unique identification for each sector).
 - `cd_dist` - District code (represents the state region).
@@ -33,7 +36,7 @@ Exploratory Data Analysis (EDA) applied to the data of housing conditions in the
 - `lat` - Latitude of sector location.
 - `long` - Longitude of sector location.
 
-## Observations
+## 📌 Observations
 
 The dataset contains geographic data (latitude and longitude) that can be used to map the geographic distribution of different areas of Adamantina.
 The area of each sector is presented in square kilometers, which allows you to calculate the population density or perform other spatial analyzes.
@@ -53,6 +56,36 @@ Mapping of possible technologies that can be used for data analysis and visualiz
 - 📈 `matplotlib` - Creating graphs and data visualizations.
 - 🤖 `scikit-learn` - Development of predictive models (if necessary).
 - 🖥 `streamlit` - Construction of interactive dashboards to visualize results.
+
+## 💫 Steps to run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/felipeclarindo/projeto-aplicado.git
+```
+
+2. Enter directory:
+
+```bash
+cd projeto-aplicado
+```
+
+3. Create an `Virtual Environment`:
+
+```bash
+python -m venv .venv
+```
+
+4. Run the `Activate.bat` file located at `.venv/Scripts/Activate.bat`. (Then type `cd ..` until you are back to root.)
+
+5. Install the dependencies:
+
+```bash
+pip install -r ./requirements.txt
+```
+
+6. Run the cell from the jupyter file (`projeto_aplicado.ipynb`) located in the `src/´projeto_aplicado.ipynb`.
 
 ## 👥 Team
 
